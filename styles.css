@@ -132,6 +132,28 @@ body {
     transform: translateY(-2px);
 }
 
+.resume-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.resume-btn:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-btn i {
+    font-size: 1.1em;
+}
+
 /* Sections */
 section {
     padding: 5rem 5%;
